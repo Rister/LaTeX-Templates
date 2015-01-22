@@ -1,0 +1,30 @@
+\documentclass[letterpaper,twoside]{article}
+
+\usepackage{epigraph}
+\renewcommand{\epigraphflush}{center}
+\renewcommand{\epigraphrule}{0.1pt}
+\renewcommand{\epigraphwidth}{3.5in}
+
+\usepackage{enumitem}
+\setlist{noitemsep}
+
+\usepackage{multicol}
+
+\title{Journal}
+\author{--author--}
+\date{DATE}
+
+\begin{document}
+\pagenumbering{gobble}
+\maketitle
+
+\part*{I'm thankful for\ldots~}
+\begin{itemize}
+	\item
+	\item
+	\item
+\end{itemize}
+
+\part*{Morning Pages}
+
+\end{document}
