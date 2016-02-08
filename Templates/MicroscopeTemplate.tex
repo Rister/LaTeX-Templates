@@ -1,0 +1,69 @@
+\documentclass[letterpaper,twoside,openany]{book}
+
+\usepackage{enumitem}
+\setlist{noitemsep}
+
+\uepackage{epigraph}
+\renewcommand{\epigraphflush}{center}
+\renewcommand{\epigraphrule}{0.1pt}
+\renewcommand{\epigraphwidth}{3.5in}
+
+\usepackage{multicol}
+
+\usepackage{textcomp}
+
+\newcommand{\light}{\textopenbullet}
+\newcommand{\dark}{\textbullet}
+
+\title{<Game Title>}
+\author{<Player 1>\\<Player 2>\\<Player 3>}
+\date{<Date of Session>}
+
+\begin{document}
+	\frontmatter
+	\maketitle
+
+	\tableofcontents
+
+	\chapter{Big Picture}
+	\epigraph{<Theme of Game>}{}
+
+	\chapter{Palette}
+	\section*{Add List}
+	\begin{itemize}
+		\item foo
+		\item bar
+	\end itemize
+	\section*{Ban List}
+	\begin{itemize}
+		\item foo
+		\item bar
+	\end{itemize}
+
+	\mainmatter
+
+	\chapter{ <First Age> \light }
+	\section{ <Event> \dark }
+	\subsection{ <Question> }
+	\subsubsection{Characters}
+	\subsubsection{Scene}
+	\subsbusection{Conclusion}
+
+	\chapter{ <Second Age> \dark }
+
+	\appendix
+
+	\chapter{Foci}
+	\section{<First Focus>}
+
+	\chapter{Legacies}
+	\section{<First Legacy>}
+
+	\chapter{Players}
+	\section{<Player 1>}
+	\section{<Player 2>}
+	\section{<Player 3>}
+
+	\chapter{Notes}
+
+\end{document}
